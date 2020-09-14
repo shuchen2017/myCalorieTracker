@@ -22,7 +22,7 @@ class App extends React.Component{
         foodSum += parseInt(item.calories);
       }
     };
-    remaining = 1500 - foodSum + exerciseSum
+    remaining = 1200 - foodSum + exerciseSum
     this.setState({data:{foodSum, exerciseSum, remaining}})
   }
 
